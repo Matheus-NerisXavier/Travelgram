@@ -10,3 +10,8 @@ main img {
   height: 286px;
   object-fit: cover;
 }
+
+main img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
